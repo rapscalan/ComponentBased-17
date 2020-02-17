@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<Fragment>
+  <div
+    className="Character"
+  >
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <img
+        alt="Rick Sanchez"
+        src="/path/image"
+      />
+      <div>
+        <h2>
+          Rick Sanchez
+        </h2>
+      </div>
+    </div>
+    <ul>
+      <li>
+        <span
+          className="left"
+        >
+          Status
+        </span>
+        <span
+          className="right"
+        >
+          Alive
+        </span>
+      </li>
+      <li>
+        <span
+          className="left"
+        >
+          Species
+        </span>
+        <span
+          className="right"
+        >
+          Human
+        </span>
+      </li>
+      <li>
+        <span
+          className="left"
+        >
+          Gender
+        </span>
+        <span
+          className="right"
+        >
+          Male
+        </span>
+      </li>
+      <li>
+        <span
+          className="left"
+        >
+          Origin
+        </span>
+        <span
+          className="right"
+        >
+          Earth (C-137)
+        </span>
+      </li>
+      <li>
+        <span
+          className="left"
+        >
+          Last Location
+        </span>
+        <span
+          className="right"
+        >
+          Earth (Replacement Dimension)
+        </span>
+      </li>
+    </ul>
+  </div>
+</Fragment>
+`;
