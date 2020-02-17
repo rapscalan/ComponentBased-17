@@ -1,0 +1,54 @@
+.Character {
+  margin: 10px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #333333;
+    padding: 25px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(68,68,68);
+    padding: 15px 0px 7.5px;
+  }
+
+  .left {
+    color: #9E9E9E;
+  }
+
+  .right {
+    color: #FF9800;
+    text-align: end;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .banner {
+    width: 390px;
+    opacity: 0.8;
+    background: rgb(32, 35, 41);
+    padding: 0.625rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  h2 {
+    color: rgb(245, 245, 245);
+    font-size: 1.625rem;
+  }
+
+  p {
+    color: rgb(187, 187, 187);
+    margin: 0px;
+  }
+}
