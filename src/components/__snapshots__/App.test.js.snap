@@ -1,7 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<Fragment>
+  <Header />
+  <div
+    className="characterSheet"
+  >
+    <Character
+      gender="Male"
+      id={1}
+      image="src/assets/1.jpeg"
+      key="1"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Rick Sanchez"
+      origin="Earth (C-137)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id={2}
+      image="src/assets/2.jpeg"
+      key="2"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Morty Smith"
+      origin="Earth (C-137)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id={22}
+      image="src/assets/22.jpeg"
+      key="22"
+      lastLocation="Citadel of Ricks"
+      name="Aqua Rick"
+      origin="unknown"
+      species="Humanoid"
+      status="unknown"
+    />
+    <Character
+      gender="Male"
+      id={23}
+      image="src/assets/23.jpeg"
+      key="23"
+      lastLocation="Immortality Field Resort"
+      name="Arcade Alien"
+      origin="unknown"
+      species="Alien"
+      status="unknown"
+    />
+    <Character
+      gender="Male"
+      id={24}
+      image="src/assets/24.jpeg"
+      key="24"
+      lastLocation="Signus 5 Expanse"
+      name="Armagheadon"
+      origin="Signus 5 Expanse"
+      species="Alien"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id={25}
+      image="src/assets/25.jpeg"
+      key="25"
+      lastLocation="Post-Apocalyptic Earth"
+      name="Armothy"
+      origin="Post-Apocalyptic Earth"
+      species="unknown"
+      status="Dead"
+    />
+    <Character
+      gender="Female"
+      id={26}
+      image="src/assets/26.jpeg"
+      key="26"
+      lastLocation="Purge Planet"
+      name="Arthricia"
+      origin="Purge Planet"
+      species="Alien"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id={27}
+      image="src/assets/27.jpeg"
+      key="27"
+      lastLocation="Citadel of Ricks"
+      name="Artist Morty"
+      origin="unknown"
+      species="Human"
+      status="Alive"
+    />
+  </div>
+  <Footer />
+</Fragment>
 `;
